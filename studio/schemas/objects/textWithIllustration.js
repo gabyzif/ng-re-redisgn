@@ -1,9 +1,9 @@
-// hero.js
+// textWithIllustration.js
 
 export default {
-    name: "hero",
+    name: "textWithIllustration",
     type: "object",
-    title: "Hero",
+    title: "Text with Illustration",
     fields: [
       {
         name: 'heading',
@@ -14,6 +14,11 @@ export default {
         name: 'tagline',
         type: 'string',
         title: 'Tagline'
+      },
+      {
+        name: 'excerpt',
+        type: 'text',
+        title: 'Excerpt'
       },
       {
         name: 'image',
